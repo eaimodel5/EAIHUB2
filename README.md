@@ -1,11 +1,12 @@
-<div align="center">
+# EAI Studio 10.0
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Monorepo met web en API.
 
-  <h1>Built with AI Studio</h2>
+## Quickstart
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. `npm install`
+2. `cp apps/api/.env.example apps/api/.env`
+3. `npm run dev`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+Web: http://localhost:5173
+API: http://localhost:3333
